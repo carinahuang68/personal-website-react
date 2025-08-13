@@ -1,0 +1,67 @@
+
+.card {
+    font-family: 'Zain', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2.5%;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+}
+
+.project-card {
+    width: 25rem;
+    animation-delay: 0.4s
+}
+
+.mini-card {
+    width: 18rem; 
+    height: 18rem
+}
+
+.card-title {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2rem;
+    color:#3b5256;
+    /* color: #57767b; */
+}
+
+.card-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#message {
+    text-align: center;
+    font-family: 'Zain', sans-serif;
+    font-size: 1.5rem;
+    /* color: #ba7171; */
+    color: #cea1a1;
+}
+
+.link-button {
+    font-size: 1.5rem;
+    background-color: #62c4cc;
+    color: white;
+    /* border: transparent solid 3px; */
+}
+
+.link-button:hover {
+    background-color: #934f4f;
+    color: white;
+    /* border: #633333 solid 3px; */
+}
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(15%);
+    animation: slideUp 0.4s ease-out forwards;
+}
+
+/* Keyframes for slide-up */
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

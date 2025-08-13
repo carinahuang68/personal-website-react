@@ -1,0 +1,50 @@
+#todoContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blanchedalmond; */
+    font-family:Comic Sans MS, Comic Sans, sans-serif;
+}
+
+#todo {
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 5% 0;
+    margin-top: 100px;
+    border-radius: 1em;
+    border: 3px solid black;
+}
+
+#todo ul {
+    display: inline-block;
+    text-align: left;
+}
+
+#todo li:hover {
+    text-decoration: line-through;
+}
+
+#todo button {
+    border: 2px solid rgb(255, 207, 136);
+    background-color: blanchedalmond;
+    border-radius: 0.5em;
+    width: 80px;
+    transition: all 0.25s ease-out;
+    font-family: Comic Sans MS, Comic Sans, sans-serif;
+}
+
+
+#todo form {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#todo button:hover {
+    background-color: rgb(255, 207, 136);
+}
+
+#todo h1:hover {
+    text-decoration: underline;
+}

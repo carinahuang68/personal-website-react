@@ -1,0 +1,19 @@
+
+h2 {
+    font-family: "Zain";
+    text-align: center;
+    color: #633333;
+    font-size: 8vh;
+    font-weight: 600;
+}
+
+#heading {
+    text-align: center;
+    padding: 30px;
+}
+
+@media (max-width: 576px) {
+    .heading {
+        font-size: 6vh;
+    }
+}
