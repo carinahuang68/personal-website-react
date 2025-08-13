@@ -1,0 +1,25 @@
+#mainNavbar {
+    background-color: #CEA1A1;
+    display: flex;
+    align-items: center; 
+}
+
+.nav-link {
+    font-size: x-large;
+    color: white;
+    font-family: 'Zain', sans-serif;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #312B36;
+}
+
+.navbar-brand #my-name{
+    color:#361a1a;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+}

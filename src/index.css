@@ -1,0 +1,14 @@
+body {
+    background: #F6EFef;
+    /* background-color: #c7eaf0; */
+    color: #312B36;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
