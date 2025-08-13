@@ -17,9 +17,10 @@ export default function Calendar() {
             <input type="text" id="dayInput" maxLength="2" size="2" />
             <br />
             <div className="my-4">
-                <button id="enter" className="btn btn-warning">Enter</button>
+                <button id="enter" className="btn">Enter</button>
             </div>
             <p id="output">A message will appear here.</p>
         </div>
     )
 }
+

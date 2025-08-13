@@ -1,5 +1,6 @@
 import clueImage from "../assets/images/clue.png";
 import alarmedImage from "../assets/images/alarmed.png"
+import dsciImage from "../assets/images/dsci-project.png"
 
 const projects = [
     {
@@ -15,6 +16,13 @@ const projects = [
         text: "A medication alarm system made with Java, Arduino, and Figma from Western Canada's largest hackathon for underespesented genders in tech",
         buttonText: "View Project",
         buttonLink: "https://devpost.com/software/alarmed-cvyujg?_gl=1*11jkh5x*_gcl_au*MTEzNTQxMDM2OS4xNzUzNTY4MzQ4*_ga*MzA5MzA5OTkxLjE3NTM1NjgzNDg.*_ga_0YHJK3Y10M*czE3NTQ3MTExNjckbzIkZzEkdDE3NTQ3MTEyODAkajE0JGwwJGgw"
+    },
+    {
+        image: dsciImage,
+        title: "DSCI 100",
+        text: "Built a KNN classification model to predict player subscriptions based on age and playtime data.",
+        buttonText: "View Project",
+        buttonLink: "https://github.com/carinahuang68/dsci-project"
     }
 ]
 
