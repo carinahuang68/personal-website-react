@@ -15,4 +15,10 @@
     background-color: #934f4f;
     color:white;
     font-size: large;
+    padding: 10px 30px;
+    transition: opacity 0.2s ;
+}
+
+#enter:hover {
+    opacity: 0.8;
 }

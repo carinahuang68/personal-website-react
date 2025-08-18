@@ -6,7 +6,8 @@ import NumberGuessing from "./pages/projects/NumberGuessing";
 import MagicEightBall from "./pages/projects/MagicEightBall";
 import CustomList from "./pages/projects/CustomList";
 import Calendar from "./pages/projects/Calendar";
-import ScoreKeeper from "./pages/projects/ScoreKeeper";
+import ColorBoxes from "./pages/projects/ColorBoxes/ColorBoxes";
+import ScoreKeeper from "./pages/projects/ScoreKeeper/ScoreKeeper";
 
 import './App.css'
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/magicEightBall" element={<MagicEightBall />} />
           <Route path="/customList" element={<CustomList />} />
+          <Route path="/colorBoxes" element={<ColorBoxes />} />
           <Route path="/scoreKeeper" element={<ScoreKeeper />} />
         </Routes>
     </Router>

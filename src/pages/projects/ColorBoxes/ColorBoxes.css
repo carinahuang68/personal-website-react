@@ -1,0 +1,29 @@
+
+
+.ColorBoxes {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ColorBox {
+    width: 20%;
+    height: 20%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#color-box-text {
+    font-family: 'Zain', sans-serif;
+    font-size: 2rem;
+    opacity: 80%;
+    text-align: center;
+}
+
+@media(max-width: 500px) {
+    .ColorBoxes {
+        width: 300px;
+        height: 300px;
+    }
+}

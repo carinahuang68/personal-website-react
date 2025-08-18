@@ -48,8 +48,13 @@ const miniProjects = [
         path: "/customList"
     },
     {
+        title: "Color Boxes",
+        text: "My first React exercise in the Web Dev Bootcamp",
+        path: "/colorBoxes"
+    },
+    {
         title: "Score Keeper",
-        text: "Made with Bulma in the Web Dev Bootcamp",
+        text: "A score keeper for any number of players",
         path: "/scoreKeeper"
     },
     {

@@ -12,3 +12,12 @@ h2 {
 html {
     scroll-behavior: smooth;
 }
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: auto;
+}

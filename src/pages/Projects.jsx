@@ -3,6 +3,7 @@ import ProjectCard from '../components/Card/ProjectCard'
 import { Link } from "react-router-dom";
 import {projects, miniProjects} from '../data/projects'
 import MiniCard from '../components/Card/MiniCard';
+import Footer from '../components/Footer/Footer'
 
 export default function Projects() {
     return (<>
@@ -20,7 +21,7 @@ export default function Projects() {
             <a href="#mini-games" className="" id="message"><p>⬇ See more below!</p></a>
         </section>
 
-        <div className="d-flex flex-column pt-4" id="mini-games">
+        <div className="d-flex flex-column pt-4 pb-5" id="mini-games">
             <h2 className="mt-5 pt-4 pb-3 heading">Mini games and applications</h2>
             <div className="container py-3 px-5">
                 <div className="d-flex flex-wrap justify-content-evenly gap-5">
@@ -30,5 +31,7 @@ export default function Projects() {
                 </div>
             </div>
         </div>
+
+        <Footer />
     </>)
 }

@@ -9,7 +9,7 @@
 }
 
 .project-card {
-    width: 25rem;
+    width: 25rem !important;
     animation-delay: 0.4s;
 }
 
