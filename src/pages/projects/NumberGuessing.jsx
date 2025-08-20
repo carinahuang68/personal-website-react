@@ -15,7 +15,6 @@ export default function NumberGuessing() {
     const guess = Number(input);
 
     if (!guess || guess < 1 || guess > 100) {
-      setMessage('⚠️ Please enter a valid number between 1 and 100');
       return;
     }
 
@@ -42,7 +41,7 @@ export default function NumberGuessing() {
   }, [numOfGuess, gameOver, number]);
 
   return (
-    <div id="container" className="pt-4 pb-4">
+    <div id="container" className="pt-4 pb-4 shadow">
       <p><strong>Guess a number between 1 to 100</strong></p>
       <p id="outputtext">{message}</p>
       <form id="guessForm" onSubmit={handleSubmit}>
@@ -56,7 +55,7 @@ export default function NumberGuessing() {
           min={1}
           max={100}
         />
-        <button id="button" disabled={gameOver}>Guess</button>
+        <button id="btn" disabled={gameOver}>Guess</button>
       </form>
       <p className="mt-3" id="guesses">
         Remaining guesses: <strong>{numOfGuess}</strong>

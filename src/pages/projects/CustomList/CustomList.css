@@ -1,0 +1,88 @@
+#todoContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blanchedalmond; */
+    font-family: Comic Sans MS, Comic Sans, sans-serif;
+    font-family: 'Zain', sans-serif;
+
+}
+
+#todo {
+    width: 70vw;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 5% 0;
+    margin-top: 100px;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-self: self-start; */
+    /* border: 3px solid black; */
+}
+
+#todo ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #633333;
+
+}
+
+#todo li:hover {
+    text-decoration: line-through;
+}
+
+#addButton {
+    /* border: 1px solid rgb(255, 207, 136); */
+    background-color: blanchedalmond;
+    border-radius: 0.5em;
+    /* height: 3rem; */
+    transition: all 0.25s ease-out;
+    /* font-family: Comic Sans MS, Comic Sans, sans-serif; */
+    font-size: 1.5rem;
+    color:#633333;
+}
+
+
+#todo form {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#todo button:hover {
+    background-color: rgb(255, 207, 136);
+}
+
+#todo h1:hover {
+    text-decoration: underline;
+}
+
+#todo h1 {
+    color: #633333;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#todo input {
+    width: 200px;
+}
+
+@media (max-width: 700px) {
+    #todo {
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10% 15%;
+    }
+}
+
+@media (max-width: 431px) {
+    #addButton{
+        margin-top: 15px;
+    }
+}

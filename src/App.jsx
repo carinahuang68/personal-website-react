@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import NumberGuessing from "./pages/projects/NumberGuessing";
 import MagicEightBall from "./pages/projects/MagicEightBall";
-import CustomList from "./pages/projects/CustomList";
+import CustomList from "./pages/projects/CustomList/CustomList";
 import Calendar from "./pages/projects/Calendar";
 import ColorBoxes from "./pages/projects/ColorBoxes/ColorBoxes";
 import ScoreKeeper from "./pages/projects/ScoreKeeper/ScoreKeeper";
