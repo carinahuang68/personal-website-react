@@ -64,7 +64,7 @@ function generateAnswer() {
         },
         { 
             color: "#ffcfcf",
-            text: "It is certain"
+            text: "My sources says no"
         },
         { 
             color: "#ffcfcf",
