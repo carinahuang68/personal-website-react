@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <nav id="mainNavbar" className="navbar navbar-dark navbar-expand-md py-0 fixed-top pr-3 pl-2">
+        <nav id="mainNavbar" className="navbar navbar-dark navbar-expand-md py-0 fixed-top pr-3 pl-2 shadow">
             <Link to="/" className="navbar-brand ps-2 pb-0">
                 <span id="my-name">Carina Huang</span>
             </Link>

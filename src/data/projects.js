@@ -58,6 +58,11 @@ const miniProjects = [
         path: "/scoreKeeper"
     },
     {
+        title: "Quote Generator",
+        text: "A random quote generator using REST API",
+        path: "/quoteFetcher"
+    },
+    {
         title: "Just a Card",
         text: "Stay tuned for more mini games and apps 😚",
         path: "/"

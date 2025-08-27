@@ -1,0 +1,14 @@
+.project-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section{
+    scroll-snap-align: start;
+}
+
+#projects {
+    padding-top: 70px;
+}

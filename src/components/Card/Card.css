@@ -39,19 +39,6 @@
     color: #cea1a1;
 }
 
-.link-button {
-    font-size: 1.5rem;
-    background-color: #62c4cc;
-    color: white;
-    /* border: transparent solid 3px; */
-}
-
-.link-button:hover {
-    background-color: #934f4f;
-    color: white;
-    /* border: #633333 solid 3px; */
-}
-
 .slide-up {
     opacity: 0;
     transform: translateY(15%);

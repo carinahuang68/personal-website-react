@@ -29,34 +29,38 @@ export default function Calendar() {
     }
 
     return (
-        <div id="container2" className="py-5 shadow ">
-            <p>
-                <font size="6" color='#934f4f'><strong>Welcome to my Schedule Finder!</strong></font>
-            </p>
-            <p><strong>Enter a date below</strong></p>
-            <form action="" onSubmit={update}>
-                <div className="inline-block">
-                    <label htmlFor="Month">Month:</label>
-                    <select name="month" id="monthInput" className='mr-3' onChange={handleChange}>
-                        <option value="">
-                            -- Select a month --
-                        </option>
-                        <option value="4">April</option>
-                        <option value="5">May</option>
-                        <option value="6">June</option>
-                    </select>
-                </div>
-                <div className='inline-block'>
-                    <label htmlFor="day">Day:</label>
-                    <input type="text" id="dayInput" maxLength="2" size="2" name="day" onChange={handleChange} />
-                </div>
+        <div className='project-body'>
 
-                <div className="my-4">
-                    <button id="enter" className="btn">Enter</button>
-                </div>
-            </form>
-            <p id="output" dangerouslySetInnerHTML={{ __html: message }}></p>
+            <div id="container2" className="py-5 shadow ">
+                <p>
+                    <font size="6" color='#934f4f'><strong>Welcome to my Schedule Finder!</strong></font>
+                </p>
+                <p><strong>Enter a date below</strong></p>
+                <form action="" onSubmit={update}>
+                    <div className="inline-block">
+                        <label htmlFor="Month">Month:</label>
+                        <select name="month" id="monthInput" className='mr-3' onChange={handleChange}>
+                            <option value="">
+                                -- Select a month --
+                            </option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                        </select>
+                    </div>
+                    <div className='inline-block'>
+                        <label htmlFor="day">Day:</label>
+                        <input type="text" id="dayInput" maxLength="2" size="2" name="day" onChange={handleChange} />
+                    </div>
+
+                    <div className="my-4">
+                        <button id="enter" className="btn">Enter</button>
+                    </div>
+                </form>
+                <p id="output" dangerouslySetInnerHTML={{ __html: message }}></p>
+            </div>
         </div>
+
     )
 }
 

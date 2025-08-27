@@ -8,6 +8,8 @@ import CustomList from "./pages/projects/CustomList/CustomList";
 import Calendar from "./pages/projects/Calendar";
 import ColorBoxes from "./pages/projects/ColorBoxes/ColorBoxes";
 import ScoreKeeper from "./pages/projects/ScoreKeeper/ScoreKeeper";
+import QuoteFetcher from "./pages/projects/QuoteFetcher/QuoteFetcher";
+
 
 import './App.css'
 
@@ -27,6 +29,7 @@ function App() {
           <Route path="/customList" element={<CustomList />} />
           <Route path="/colorBoxes" element={<ColorBoxes />} />
           <Route path="/scoreKeeper" element={<ScoreKeeper />} />
+          <Route path="/quoteFetcher" element={<QuoteFetcher />} />
         </Routes>
     </Router>
   )

@@ -21,3 +21,19 @@ html {
     min-height: 100vh;
     margin: auto;
 }
+
+.link-button {
+    font-size: 1.5rem;
+    background-color: #62c4cc;
+    color: white;
+    font-family: 'Zain', sans-serif;
+}
+
+.link-button:hover {
+    background-color: #934f4f;
+    color: white;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
