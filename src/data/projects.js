@@ -1,6 +1,7 @@
 import clueImage from "../assets/images/clue.png";
 import alarmedImage from "../assets/images/alarmed.png"
 import dsciImage from "../assets/images/dsci-project.png"
+import recipeImage from "../assets/images/MyRecipe.png"
 
 const projects = [
     {
@@ -23,6 +24,13 @@ const projects = [
         text: "Built a KNN classification model to predict player subscriptions based on age and playtime data.",
         buttonText: "View Project",
         buttonLink: "https://github.com/carinahuang68/dsci-project"
+    },
+    {
+        image: recipeImage,
+        title: "MyRecipe App",
+        text: "Built a CRUD recipe app with user authentication using MongoDB, Express, React, and Node.js.",
+        buttonText: "GitHub Repo",
+        buttonLink: "https://github.com/carinahuang68/mern_recipe_app"
     }
 ]
 
